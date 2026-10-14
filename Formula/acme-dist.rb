@@ -1,25 +1,25 @@
 class AcmeDist < Formula
   desc "Sandbox CLI for DIST-VERIFY"
   homepage "https://github.com/zamn/acme-cli-dist-test"
-  version "0.1.0"
+  version "0.1.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/zamn/acme-cli-dist-test/releases/download/v0.1.0/acme-dist-aarch64-apple-darwin.tar.gz"
-      sha256 "fe908c3487135c3905ef86b0c87b001fb28bf71ea993eac2f1f6d776788d284b"
+      url "https://github.com/zamn/acme-cli-dist-test/releases/download/v0.1.3/acme-dist-aarch64-apple-darwin.tar.gz"
+      sha256 "7d4309916c035c8ef92b015e2695d0d2e86f1bd844481a3135ac5a3624ae7b98"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/zamn/acme-cli-dist-test/releases/download/v0.1.0/acme-dist-x86_64-apple-darwin.tar.gz"
-      sha256 "1fa7a64f8ad9870605dd482038914dfec55b7779e730588e18cc8fb9f3368111"
+      url "https://github.com/zamn/acme-cli-dist-test/releases/download/v0.1.3/acme-dist-x86_64-apple-darwin.tar.gz"
+      sha256 "ee16e9be1b0d661f8cfd369c0a38c5e095e5cb9750fe8e08ea04f95cb6933d17"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/zamn/acme-cli-dist-test/releases/download/v0.1.0/acme-dist-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "7c6897e866b2e1de156201c3836857d27a6677d52258974c0a17186db0200ae9"
+      url "https://github.com/zamn/acme-cli-dist-test/releases/download/v0.1.3/acme-dist-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "8618c82daf0f3510736938f2ece613952acf5edbf74948274d0722b0ee15c37c"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/zamn/acme-cli-dist-test/releases/download/v0.1.0/acme-dist-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "9976c268512a6cf162f50b34b8ff90f80df9719d04b718ba3bbdba89c6ab8413"
+      url "https://github.com/zamn/acme-cli-dist-test/releases/download/v0.1.3/acme-dist-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "0605a2a686eb3739836968043b8f8a068f2764156463db583f8105a12a06ea00"
     end
   end
   license "MIT"
